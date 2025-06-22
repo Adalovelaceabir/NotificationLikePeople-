@@ -1,0 +1,136 @@
+/* Responsive Styles */
+@media (max-width: 992px) {
+    main.container, .article-container {
+        flex-direction: column;
+    }
+    
+    .sidebar, .article-sidebar {
+        order: -1;
+        margin-bottom: 30px;
+    }
+    
+    .charts-container {
+        grid-template-columns: 1fr;
+    }
+    
+    .admin-sidebar {
+        width: 200px;
+    }
+    
+    .admin-main {
+        margin-left: 200px;
+    }
+}
+
+@media (max-width: 768px) {
+    header .container {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        margin-bottom: 15px;
+    }
+    
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    nav ul li {
+        margin: 5px 0;
+    }
+    
+    .mobile-menu {
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+    
+    nav {
+        display: none;
+        width: 100%;
+        margin-top: 15px;
+    }
+    
+    nav.active {
+        display: block;
+    }
+    
+    .featured-article .article-image {
+        height: 300px;
+    }
+    
+    .footer-links {
+        flex-direction: column;
+    }
+    
+    .footer-section {
+        margin-bottom: 20px;
+    }
+    
+    .admin-sidebar {
+        width: 100%;
+        position: relative;
+        height: auto;
+    }
+    
+    .admin-main {
+        margin-left: 0;
+    }
+    
+    .admin-nav ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .admin-nav ul li {
+        margin: 5px;
+    }
+    
+    .admin-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .admin-search {
+        margin-bottom: 15px;
+        width: 100%;
+    }
+    
+    .admin-search input {
+        width: 100%;
+    }
+    
+    .admin-user {
+        width: 100%;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 576px) {
+    .featured-article .article-image {
+        height: 200px;
+    }
+    
+    .featured-article .article-title {
+        font-size: 1.5rem;
+    }
+    
+    .news-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .main-article {
+        padding: 20px;
+    }
+    
+    .article-header .article-title {
+        font-size: 1.5rem;
+    }
+    
+    .stats-grid {
+        grid-template-columns: 1fr;
+    }
+}
