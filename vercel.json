@@ -65,9 +65,9 @@
   "cleanUrls": true,
   "trailingSlash": false,
   "env": {
-    "JWT_SECRET": "@jwt-secret",
-    "ADMIN_USERNAME": "@admin-username",
-    "ADMIN_PASSWORD": "@admin-password",
+    "JWT_SECRET": "X8h@7#kLp9$Fw2zM!cVeR0nTqG5YuJrB",
+    "ADMIN_USERNAME": "@adalovelaceabir",
+    "ADMIN_PASSWORD": "@ada11222211",
     "ADSENSE_CLIENT": "@adsense-client"
   }
 }
