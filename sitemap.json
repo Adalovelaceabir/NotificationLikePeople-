@@ -1,0 +1,14 @@
+{
+  "siteUrl": "https://notification-for-people-adalovelaceabirs-projects.vercel.app/",
+  "generateRobotsTxt": true,
+  "sitemapSize": 5000,
+  "changefreq": "daily",
+  "priority": 0.7,
+  "exclude": ["/admin", "/admin/*"],
+  "alternateRefs": [
+    {
+      "href": "https://notification-for-people-adalovelaceabirs-projects.vercel.app/",
+      "hreflang": "en"
+    }
+  ]
+}
