@@ -1,0 +1,24 @@
+{
+  "version": 2,
+  "name": "news-portal",
+  "builds": [
+    {
+      "src": "api/*.js",
+      "use": "@now/node"
+    },
+    {
+      "src": "public/*.html",
+      "use": "@now/static"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/api/(.*)",
+      "dest": "/api/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/public/$1"
+    }
+  ]
+}
